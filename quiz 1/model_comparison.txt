@@ -1,0 +1,68 @@
+Model: Random Forest
+Accuracy: 1.00
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        17
+           1       1.00      1.00      1.00        11
+           2       1.00      1.00      1.00        12
+
+    accuracy                           1.00        40
+   macro avg       1.00      1.00      1.00        40
+weighted avg       1.00      1.00      1.00        40
+
+Confusion Matrix:
+[[17  0  0]
+ [ 0 11  0]
+ [ 0  0 12]]
+==================================================
+Model: Logistic Regression
+Accuracy: 0.90
+              precision    recall  f1-score   support
+
+           0       0.84      0.94      0.89        17
+           1       0.89      0.73      0.80        11
+           2       1.00      1.00      1.00        12
+
+    accuracy                           0.90        40
+   macro avg       0.91      0.89      0.90        40
+weighted avg       0.90      0.90      0.90        40
+
+Confusion Matrix:
+[[16  1  0]
+ [ 3  8  0]
+ [ 0  0 12]]
+==================================================
+Model: Decision Tree
+Accuracy: 1.00
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        17
+           1       1.00      1.00      1.00        11
+           2       1.00      1.00      1.00        12
+
+    accuracy                           1.00        40
+   macro avg       1.00      1.00      1.00        40
+weighted avg       1.00      1.00      1.00        40
+
+Confusion Matrix:
+[[17  0  0]
+ [ 0 11  0]
+ [ 0  0 12]]
+==================================================
+Model: XGBoost
+Accuracy: 1.00
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        17
+           1       1.00      1.00      1.00        11
+           2       1.00      1.00      1.00        12
+
+    accuracy                           1.00        40
+   macro avg       1.00      1.00      1.00        40
+weighted avg       1.00      1.00      1.00        40
+
+Confusion Matrix:
+[[17  0  0]
+ [ 0 11  0]
+ [ 0  0 12]]
+==================================================
